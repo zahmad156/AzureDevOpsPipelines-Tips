@@ -7,7 +7,7 @@ pool:
 variables:
   serviceConnection: azure-connection
   resourceGroup: aks-rg-pk
-  storageAccount: terraformtfstateskip
+  storageAccount: terraformtfstateskip91
   container: tfstate
   tfstateFile: terraform.tfstate
   anyTfChanges: false
