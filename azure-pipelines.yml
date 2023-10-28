@@ -32,7 +32,6 @@ steps:
     backendAzureRmStorageAccountName: '$(storageAccount)'
     backendAzureRmContainerName: '$(container)'
     backendAzureRmKey: '$(tfstateFile)'
-
 - task: TerraformTaskV4@4
   displayName: terraform plan -out=tfplan
   inputs:
